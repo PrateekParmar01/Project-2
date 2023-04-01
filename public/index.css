@@ -35,6 +35,13 @@
 5. Use the user's configured `sans` font-feature-settings by default.
 */
 
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/Gilroy-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   line-height: 1.5;
   /* 1 */

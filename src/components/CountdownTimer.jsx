@@ -16,23 +16,23 @@ const CountdownTimer = ({ deadline }) => {
   const seconds = Math.floor((remainingTime / 1000) % 60);
 
   return (
-    <div>
-      <div className="flex justify-center mt-10 gap-18 text-white bg-[#e76da6] p-8 m-8 rounded-xl">
-        <div className="bg-[#fc749f] p-5 rounded-full w-96 h-96 flex justify-center items-center flex-col mx-3 border-white border-8">
-          <div className="text-8xl font-bold">{days}</div>
-          <div className="text-[50px]">Days</div>
+    <div className>
+      <div className="flex justify-center md:mt-10 md:gap-18 text-white md:bg-[#e76da6] md:p-8 md:m-8 p-4 rounded-xl">
+        <div className="bg-[#fc749f] p-5 md:rounded-full rounded-xl md:w-96 md:h-96 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
+          <div className="md:text-8xl font-bold">{days}</div>
+          <div className="md:text-[50px]">Days</div>
         </div>
-        <div className="bg-[#fc749f] p-5 rounded-full w-96 h-96 flex justify-center items-center flex-col mx-3 border-white border-8">
-          <div className="text-8xl font-bold">{hours}</div>
-          <div className="text-[50px]">Hours</div>
+        <div className="bg-[#fc749f] p-5 md:rounded-full rounded-xl md:w-96 md:h-96 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
+          <div className="md:text-8xl font-bold">{hours}</div>
+          <div className="md:text-[50px]">Hrs</div>
         </div>
-        <div className="bg-[#fc749f] p-5 rounded-full w-96 h-96 flex justify-center items-center flex-col mx-3 border-white border-8">
-          <div className="text-8xl font-bold">{minutes}</div>
-          <div className="text-[50px]">Minutes</div>
+        <div className="bg-[#fc749f] p-5 md:rounded-full rounded-xl md:w-96 md:h-96 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
+          <div className="md:text-8xl font-bold">{minutes}</div>
+          <div className="md:text-[50px]">Mins</div>
         </div>
-        <div className="bg-[#fc749f] p-5 rounded-full w-96 h-96 flex justify-center items-center flex-col mx-3 border-white border-8">
-          <div className="text-8xl font-bold">{seconds}</div>
-          <div className="text-[50px]">Seconds</div>
+        <div className="bg-[#fc749f] p-5 md:rounded-full rounded-xl md:w-96 md:h-96 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
+          <div className="md:text-8xl font-bold">{seconds}</div>
+          <div className="md:text-[50px]">Secs</div>
         </div>
       </div>
     </div>
