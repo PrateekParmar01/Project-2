@@ -16,26 +16,26 @@ const CountdownTimer = ({ deadline }) => {
   const seconds = Math.floor((remainingTime / 1000) % 60);
 
   return (
-    <div className>
-      <div className="flex justify-center md:mt-10 md:gap-18 text-white md:bg-[#e76da6] md:p-8 md:m-8 p-4 rounded-xl">
-        <div className="bg-[#fc749f] p-5 md:rounded-full rounded-xl md:w-96 md:h-96 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
-          <div className="md:text-8xl font-bold">{days}</div>
-          <div className="md:text-[50px]">Days</div>
-        </div>
-        <div className="bg-[#fc749f] p-5 md:rounded-full rounded-xl md:w-96 md:h-96 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
-          <div className="md:text-8xl font-bold">{hours}</div>
-          <div className="md:text-[50px]">Hrs</div>
-        </div>
-        <div className="bg-[#fc749f] p-5 md:rounded-full rounded-xl md:w-96 md:h-96 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
-          <div className="md:text-8xl font-bold">{minutes}</div>
-          <div className="md:text-[50px]">Mins</div>
-        </div>
-        <div className="bg-[#fc749f] p-5 md:rounded-full rounded-xl md:w-96 md:h-96 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
-          <div className="md:text-8xl font-bold">{seconds}</div>
-          <div className="md:text-[50px]">Secs</div>
-        </div>
-      </div>
+    <div className="bg-[#e76da6] md:px-10 lg:px-20 py-10">
+  <div className="flex justify-center md:gap-8 gap-2 text-white md:bg-[#e76da6] md:p-8 md:rounded-xl">
+    <div className="bg-[#fc749f] md:p-5 p-2 md:rounded-full rounded-xl md:w-40 md:h-40 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
+      <div className="md:text-4xl font-bold">{days}</div>
+      <div className="md:text-2xl">Days</div>
     </div>
+    <div className="bg-[#fc749f] md:p-5 p-4 md:rounded-full rounded-xl md:w-40 md:h-40 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
+      <div className="md:text-4xl font-bold">{hours}</div>
+      <div className="md:text-2xl">Hrs</div>
+    </div>
+    <div className="bg-[#fc749f] md:p-5 p-4 md:rounded-full rounded-xl md:w-40 md:h-40 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
+      <div className="md:text-4xl font-bold">{minutes}</div>
+      <div className="md:text-2xl">Mins</div>
+    </div>
+    <div className="bg-[#fc749f] md:p-5 p-4 md:rounded-full rounded-xl md:w-40 md:h-40 flex justify-center items-center flex-col mx-3 border-white md:border-8 border-4">
+      <div className="md:text-4xl font-bold">{seconds}</div>
+      <div className="md:text-2xl">Secs</div>
+    </div>
+  </div>
+</div>
   );
 };
 
