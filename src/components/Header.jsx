@@ -16,9 +16,9 @@ function Header() {
             <div className="absolute left-8 font text-white font-semibold text-lg">LA</div>
               <div className="ml-10 flex items-baseline space-x-4">
                 <a href="/" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">Home</a>
-                <a href="/gallery" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">Gallery</a>
-                <a href="/about" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">About</a>
-                <a href="/contact" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">Contact</a>
+                <a href="#" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">Gallery</a>
+                <a href="#" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">About</a>
+                <a href="#" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">Contact</a>
                 <button className="hover:bg-[#dd2562] border border-white rounded py-1 px-6 absolute right-8  text-white font-semibold text-lg">Check Now</button>
               </div>
             </div>
