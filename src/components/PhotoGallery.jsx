@@ -1,7 +1,7 @@
 import React from "react";
 export default function PhotoGallery(){
     return(
-        <div className="  pt-20 bg-contain " 
+        <div className="  pt-20 bg-contain bg-no-repeat bg-cover" 
         style={{
             backgroundImage:
               "url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fae%2Fbe%2F72%2Faebe72464627ed97abb511494a5edd88.jpg&f=1&nofb=1&ipt=668ba5f40c7c683d1cb3a0b8cc90cbbfe73c9194c716ba03f4138f1a92a213b3&ipo=images)"
