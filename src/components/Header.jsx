@@ -8,18 +8,20 @@ function Header() {
   };
 
   return (
-    <nav className="bg-[#e67b9f]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-pink-500 sm:full m-auto lg:w-3/4 lg:mt-2 mt-0  " >
+      <div className=" mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <div className="hidden md:block">
-            <div className="absolute left-8 font text-white font-semibold text-lg">LA</div>
-              <div className="ml-10 flex items-baseline space-x-4">
+          <div className="flex items-center w-full">
+            <div className="hidden md:block w-full">
+            <div className="ml-10 flex items-baseline justify-between space-x-4">
+            <div className=" font text-white font-semibold text-lg">LA</div>
+                <div>
                 <a href="/" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">Home</a>
                 <a href="#" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">Gallery</a>
                 <a href="#" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">About</a>
                 <a href="#" className=" hover:bg-[#dd2562] hover:text-white px-3 py-2 rounded-md  text-white font-semibold text-lg">Contact</a>
-                <button className="hover:bg-[#dd2562] border border-white rounded py-1 px-6 absolute right-8  text-white font-semibold text-lg">Check Now</button>
+                </div>
+                <button className="hover:bg-[#dd2562] border border-white rounded py-1 px-6  right-8  text-white font-semibold text-lg">Check Now</button>
               </div>
             </div>
           </div>
